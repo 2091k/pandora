@@ -1,3 +1,8 @@
+web模式
+
+docker run  -e PANDORA_CLOUD=cloud -e PANDORA_SERVER=0.0.0.0:8899 -p 8899:8899 -d pengzhile/pandora
+
+
 # Pandora
 
 潘多拉 (Pandora)，一个让你呼吸顺畅的 ChatGPT。
