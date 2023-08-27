@@ -1,6 +1,23 @@
-web模式 
+1、安装docker环境（ubuntu系统）
+
+apt update && apt install docker.io -y
+
+2、拉取镜像
+
+docker pull pengzhile/pandora
+
+3、启动容器
+
+（1）命令行模式：
+
+docker run -it --rm pengzhile/pandora
+
+（2）web模式
+
 
 docker run  -e PANDORA_CLOUD=cloud -e PANDORA_SERVER=0.0.0.0:8899 -p 8899:8899 -d pengzhile/pandora
+
+
 
 # Pandora
 
